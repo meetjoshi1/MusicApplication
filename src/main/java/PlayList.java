@@ -14,4 +14,8 @@ public class PlayList {
     public void addSong(Song song){
         this.songs.add(song);
     }
+
+    public void removeSong(Song song1) {
+        this.songs.remove(song1);
+    }
 }

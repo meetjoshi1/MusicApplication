@@ -3,8 +3,7 @@ import org.junit.Test;
 
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 public class MusicApplicationTest {
     private User user ;
@@ -40,6 +39,34 @@ public class MusicApplicationTest {
 
         assertEquals(4, user.getPlayList().get(0).getSong().size());
         assertEquals(song1, user.getPlayList().get(0).getSong().get(1));
+
+    }
+
+    @Test
+    public void removeSongfrom_PlayList(){
+       Song song1 = new Song("Rihana1 Song");
+       Song song2 = new Song("Rihana2 Song");
+
+       user.cretePlayList();
+       user.getPlayList().get(0).addSong(song1);
+       user.getPlayList().get(0).addSong(song2);
+       List<PlayList> playList = user.getPlayList();
+       playList.get(0).removeSong(song1);
+
+        assertEquals(1, user.getPlayList().get(0).getSong().size());
+        assertFalse(user.getPlayList().get(0).getSong().contains(song1));
+    }
+
+    @Test
+    public void removePlayList(){
+       PlayList playList1 =  user.cretePlayList();
+       PlayList playList2 = user.cretePlayList();
+       PlayList playList3 = user.cretePlayList();
+
+       user.removePlayList(playList2);
+
+       assertEquals(2,user.getPlayList().size());
+       assertFalse(user.getPlayList().contains(playList2));
 
     }
 
