@@ -10,4 +10,8 @@ public class MusicLibrary {
     public List<Song> displayMusicLibrary() {
         return this.musicLibrarysongs;
     }
+
+    public void removeSong(Song song) {
+        this.musicLibrarysongs.remove(song);
+    }
 }

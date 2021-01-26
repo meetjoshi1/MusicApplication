@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8ef5e5-a5ab-48f8-901c-7fafd2c054e0" name="Default Changelist" comment="added remove Playlist functionality">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MusicLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,8 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PlayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PlayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MusicLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MusicLibrary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/MusicApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/MusicApplicationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/MusicApplicationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/MusicApplicationTest.html" afterDir="false" />
@@ -23,7 +21,8 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-MusicApplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-MusicApplicationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MusicApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MusicApplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,26 +113,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MusicApplicationTest.arrangePlayList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MusicApplicationTest.arrangePlayList&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="MusicApplicationTest.availableSongs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -154,12 +133,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MusicApplicationTest.removeSongfrom_PlayList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MusicApplicationTest.getSongfromMusicLibrary" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MusicApplicationTest.removeSongfrom_PlayList&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MusicApplicationTest.getSongfromMusicLibrary&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MusicApplicationTest.removeSomgsfromLibrary" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MusicApplicationTest.removeSomgsfromLibrary&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -177,10 +176,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MusicApplicationTest" />
-        <item itemvalue="Gradle.MusicApplicationTest.availableSongs" />
-        <item itemvalue="Gradle.MusicApplicationTest.removeSongfrom_PlayList" />
+        <item itemvalue="Gradle.MusicApplicationTest.getSongfromMusicLibrary" />
+        <item itemvalue="Gradle.MusicApplicationTest.removeSomgsfromLibrary" />
         <item itemvalue="Gradle.MusicApplicationTest.addSonginPlayList" />
-        <item itemvalue="Gradle.MusicApplicationTest.arrangePlayList" />
+        <item itemvalue="Gradle.MusicApplicationTest.availableSongs" />
       </list>
     </recent_temporary>
   </component>
@@ -222,10 +221,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added remove Playlist functionality" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="100" width="1080" height="480" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1611696358756">
+    <state x="100" y="100" width="1080" height="480" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1611697624927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="100" y="100" width="1080" height="480" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1611696358756" />
+    <state x="100" y="100" width="1080" height="480" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1611697624927" />
     <state x="371" y="91" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1611692235769">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -234,45 +233,45 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1611694596542" />
-    <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1611697105570">
+    <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1611701177563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611697105570" />
-    <state width="1222" height="161" key="GridCell.Tab.0.center" timestamp="1611697105570">
+    <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611701177563" />
+    <state width="1222" height="161" key="GridCell.Tab.0.center" timestamp="1611701177561">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611697105570" />
-    <state width="1222" height="161" key="GridCell.Tab.0.left" timestamp="1611697105570">
+    <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611701177561" />
+    <state width="1222" height="161" key="GridCell.Tab.0.left" timestamp="1611701177561">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611697105570" />
-    <state width="1222" height="161" key="GridCell.Tab.0.right" timestamp="1611697105570">
+    <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611701177561" />
+    <state width="1222" height="161" key="GridCell.Tab.0.right" timestamp="1611701177562">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611697105570" />
-    <state width="1222" height="201" key="GridCell.Tab.1.bottom" timestamp="1611692184823">
+    <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611701177562" />
+    <state width="1222" height="201" key="GridCell.Tab.1.bottom" timestamp="1611697275996">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="201" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611692184823" />
-    <state width="1222" height="201" key="GridCell.Tab.1.center" timestamp="1611692184822">
+    <state width="1222" height="201" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611697275996" />
+    <state width="1222" height="201" key="GridCell.Tab.1.center" timestamp="1611697275996">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="201" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1611692184822" />
-    <state width="1222" height="201" key="GridCell.Tab.1.left" timestamp="1611692184822">
+    <state width="1222" height="201" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1611697275996" />
+    <state width="1222" height="201" key="GridCell.Tab.1.left" timestamp="1611697275996">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="201" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1611692184822" />
-    <state width="1222" height="201" key="GridCell.Tab.1.right" timestamp="1611692184822">
+    <state width="1222" height="201" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1611697275996" />
+    <state width="1222" height="201" key="GridCell.Tab.1.right" timestamp="1611697275996">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="201" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1611692184822" />
+    <state width="1222" height="201" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1611697275996" />
     <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1611694623863">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611694623863" />
-    <state x="349" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1611690303173">
+    <state x="349" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1611701078679">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1611690303173" />
+    <state x="349" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1611701078679" />
   </component>
 </project>

@@ -94,11 +94,25 @@ public class MusicApplicationTest {
 
       musicLibrary.displayMusicLibrary();
       assertEquals(2, musicLibrary.displayMusicLibrary().size());
+      assertEquals(song1, musicLibrary.displayMusicLibrary().get(0));
+      assertEquals(song2, musicLibrary.displayMusicLibrary().get(1));
    }
 
+   @Test
+   public void removeSomgsfromLibrary(){
+       MusicLibrary musicLibrary = new MusicLibrary();
+       musicLibrary.addSongs(song1);
+       musicLibrary.addSongs(song2);
 
+       musicLibrary.removeSong(song1);
+       assertEquals(1, musicLibrary.displayMusicLibrary().size());
+       assertFalse(musicLibrary.displayMusicLibrary().contains(song1));
+   }
 
-
-
-
+   @Test
+   public void getSongfromMusicLibrary(){
+       MusicLibrary musicLibrary = new MusicLibrary();
+       musicLibrary.addSongs(song1);
+       musicLibrary.addSongs(song2);
+   }
 }

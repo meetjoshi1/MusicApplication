@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MusicApplicationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-01-26T21:41:07" hostname="LTUS116589" time="0.004">
+<testsuite name="MusicApplicationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-01-26T22:46:19" hostname="LTUS116589" time="0.01">
   <properties/>
   <testcase name="availableSongs" classname="MusicApplicationTest" time="0.002"/>
-  <testcase name="arrangePlayList" classname="MusicApplicationTest" time="0.001"/>
-  <testcase name="addSonginPlayList" classname="MusicApplicationTest" time="0.0"/>
-  <testcase name="checkPlaylist" classname="MusicApplicationTest" time="0.0"/>
+  <testcase name="getSongfromMusicLibrary" classname="MusicApplicationTest" time="0.0"/>
+  <testcase name="removeSomgsfromLibrary" classname="MusicApplicationTest" time="0.0"/>
+  <testcase name="arrangePlayList" classname="MusicApplicationTest" time="0.002"/>
+  <testcase name="addSonginPlayList" classname="MusicApplicationTest" time="0.001"/>
+  <testcase name="checkPlaylist" classname="MusicApplicationTest" time="0.001"/>
   <testcase name="removePlayList" classname="MusicApplicationTest" time="0.0"/>
-  <testcase name="removeSongfrom_PlayList" classname="MusicApplicationTest" time="0.0"/>
+  <testcase name="removeSongfrom_PlayList" classname="MusicApplicationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
