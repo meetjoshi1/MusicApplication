@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MusicApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-26T19:47:16" hostname="LTUS116589" time="0.006">
+<testsuite name="MusicApplicationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-26T20:35:51" hostname="LTUS116589" time="0.016">
   <properties/>
-  <testcase name="addSonginPlayList" classname="MusicApplicationTest" time="0.006"/>
+  <testcase name="addSonginPlayList" classname="MusicApplicationTest" time="0.01"/>
+  <testcase name="checkPlaylist" classname="MusicApplicationTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

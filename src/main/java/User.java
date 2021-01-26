@@ -1,12 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class User {
 
-    private PlayList playList;
+    private List<PlayList> playList = new ArrayList<>();
 
-    public void cretePlayList(Song song) {
-        this.playList = new PlayList(song);
+    public void cretePlayList() {
+        this.playList.add( new PlayList());
     }
 
-    public PlayList getPlayList() {
+    public List<PlayList> getPlayList() {
         return this.playList;
     }
 }

@@ -1,11 +1,17 @@
-public class PlayList {
-    private  Song song;
+import java.util.ArrayList;
+import java.util.List;
 
-    public PlayList(Song song) {
-        this.song = song;
+public class PlayList {
+    private List<Song> songs = new ArrayList<>();
+
+    public PlayList() {
     }
 
-    public Song getSong() {
-        return this.song;
+    public List<Song> getSong() {
+        return this.songs;
+    }
+
+    public void addSong(Song song){
+        this.songs.add(song);
     }
 }
